@@ -43,7 +43,7 @@ app.post("/webhook", async (req, res) => {
 
 // Root
 app.get("/", (req, res) => {
-  res.send("Meta Verification Server Running");
+  res.send("Meta Verification Server is Running");
 });
 
 // Start server
