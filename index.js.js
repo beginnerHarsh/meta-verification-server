@@ -15,7 +15,7 @@ app.use(
 
 const VERIFY_TOKEN = "verify_token_123";
 const APP_SECRET = "be27263714ae8a5e75fc54e6b61b1436"; // ← IMPORTANT
-const N8N_URL = "https://panwar7017.app.n8n.cloud/webhook-test/whatsapp-incoming";
+const N8N_URL = "https://harshkumar7017.app.n8n.cloud/webhook/whatsapp-incoming";
 
 // In-memory deduplication store
 const processedMessageIds = new Set();
